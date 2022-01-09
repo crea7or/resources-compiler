@@ -13,6 +13,6 @@ execute_process(COMMAND conan install . --build missing WORKING_DIRECTORY ${PROJ
 include(${PROJECT_SOURCE_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
 
-set(TARGET_SRC "src/resources_compiler.cpp")
+set(TARGET_SRC "resources_compiler.cpp")
 add_executable(${PROJECT_NAME} ${TARGET_SRC})
 target_link_libraries(${PROJECT_NAME} ${CONAN_LIBS})

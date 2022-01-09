@@ -23,3 +23,5 @@ if (nullptr != resource_file.data()) {
 	// no such resource
 }
 ```
+
+MIT License Copyright (c) 2021 pavel.sokolov@gmail.com / CEZEO software Ltd.. All rights reserved.
